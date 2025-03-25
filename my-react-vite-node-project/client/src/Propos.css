@@ -1,0 +1,19 @@
+
+  
+  .accordion-summary:hover {
+    background-color: #c5ecbd;
+  }
+  
+  .accordion-details {
+    display: flex;
+    align-items: flex-start; /* Align content to the top */
+    padding: 140px;
+    background-color: #fafafa;
+  }
+  #propos{
+    background-image: url(/clock.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height:100vh;
+  }

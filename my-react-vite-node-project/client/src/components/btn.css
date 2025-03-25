@@ -1,0 +1,51 @@
+.btn-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    gap:25px;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    background-color: #3adf53;
+    
+    color: #02096c;
+    width: 224px;
+
+    height: 60px;
+    padding: 10px 10px;
+    margin: 10px 20px; /* Add margin between buttons */
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 600;
+    transition: background-color 1s, color 1s;
+}
+
+.btn:hover {
+    color: rgb(217, 37, 37);
+    text-align: center;
+    width: 230px    ;                              
+    height: 70px;
+    font-size: 20px;
+    border-radius: 10px 40px;
+    background-color: #fdfdfd;
+
+}
+
+/* Link styles */
+.menu-item-link {
+    text-decoration: none;
+    color: black; /* Default link color */
+    transition: color 0.3s ease;
+  }
+  
+  .menu-item-link:hover {
+    color: blue; /* Hover color */
+  }
